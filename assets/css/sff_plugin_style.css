@@ -1,0 +1,137 @@
+.sff_facebook_feed {
+	
+}
+.sff_facebook_feed .sff_page_cover {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 35px;
+}
+.sff_facebook_feed ul {
+	margin: 0 !important;
+	padding: 0 !important;
+	list-style: none !important;
+}
+.sff_facebook_feed ul li {
+	margin: 0 0 16px !important;
+	padding: 6px 0 8px !important;
+	list-style: none !important;
+    border-bottom: 1px solid #CCC;
+    overflow: hidden;
+}
+.sff_facebook_feed ul li h2 {
+    margin: 0 0 10px 0;
+    padding-left: 20px;
+    line-height: 12px;
+    font-size: 15px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.sff_facebook_feed .sff_feed_date {
+	color: #a2a3a6;
+    display: block;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.sff_facebook_feed .sff_feed_msg {
+	font-size: 14px;
+    margin-bottom: 10px;
+}
+.sff_facebook_feed h6 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 78%;
+    margin-top: 0;
+}
+.sff_facebook_feed .sff_social_media {
+	color: #a2a3a6;
+    font-size: 10px !important;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+}
+.sff_facebook_feed .sff_social_media span {
+    display: inline-block !important;
+    color: #413f42 !important;
+    font-size: 10px !important;
+}
+.sff_facebook_feed .sff_social_media i {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    line-height: 19px;
+    background-color: #3b5998;
+    color: #FFF;
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 12px;
+    padding-left: 1px;
+}
+.sffdp_pic {
+    width: 8%;
+    float: left;
+}
+.sff_inner_wrapper {
+    width: 88%;
+    float: right;
+}
+.sff_photo_link {
+    display: inline-block;
+    text-decoration: none; 
+    color: #21759b;
+    padding-right: 15px;
+
+}
+.fa-picture-o, .fa-eye  {
+    display: inline-block;
+    color: #21759b;
+    padding-right: 8px; 
+}
+.sff_view_page {
+    display: inline-block;
+    text-decoration: none;
+    color: #21759b;
+}
+
+.sff_view_page_wrap {
+    display: inline-block;
+}
+
+.sff_facebook_feed blockqoute {
+    background: rgba(0, 0, 0, 0.02) none repeat scroll 0 0;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+    clear: both;
+    float: left;
+    margin: 10px 0 5px;
+    padding: 5px 10px;
+    width: 100%;
+}
+.sff_facebook_feed blockqoute p {
+    margin: 0 0 0 0 !important;
+}
+
+.sff_facebook_feed blockqoute cite {
+    display: block;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+.sff_mention_people {
+    padding-bottom: 8px;
+}
+.sff_feeds_widget .sff_facebook_feed a.sff_social_media {
+    width: 100%;
+}
+
+/*  Mobile Responsive  */ 
+
+.sff_facebook_feed {
+    width: 100%;
+}   

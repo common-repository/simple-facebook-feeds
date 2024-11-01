@@ -1,0 +1,199 @@
+body {
+    position: relative;
+}
+#sff-setting-message {
+    background-color: #FFF;
+    padding: 8px 20px;
+    border-left: 5px solid #008001;
+    color: #008001;
+    font-weight: bold;
+    font-size: 12px;
+    box-shadow: 0 3px 6px -2px #DDD;
+    margin-bottom: 22px;
+}
+.sff_plugin_body {
+    width: 98%;
+    float: left;
+}
+.sff_plugin_body .sff_heading_cover {
+    margin: 12px 0;
+    width: 415px;
+}
+.sff_plugin_body h1 {
+    font-size: 24px;
+    padding: 0;
+    margin-bottom: 22px;
+    color: #3B5998;
+}
+.sff_plugin_body h2 {
+    font-size: 20px;
+    padding: 0;
+    margin-bottom: 18px;
+    color: #000;
+    margin-top: 0;
+}
+.sff_plugin_body h2 i {
+    color: #3B5998;
+}
+#sff_form_body {
+    float: left;
+    width: 70%;
+}
+#sff_form_form {
+    background-color: #FFF;
+    padding: 14px;
+    border-radius: 6px;
+    border: 1px solid #DDD;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+}
+#sff_form_form table th {
+    text-align: left;
+    color: #3B5998;
+    padding-top: 11px;
+    font-size: 13px;
+    width: 114px;
+    vertical-align: top;
+}
+#sff_form_form table input[type=text] {
+    background-color: #FFF;
+    width: 100%;
+    padding: 6px 10px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.sff_small_input {
+    width: 25% !important;
+}
+.sff_color_picker {
+    width: 80px !important;
+}
+#sff_form_form table select {
+    background-color: #FFF;
+    width: 40%;
+    padding: 0 10px;
+    height: 32px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+#sff_form_form table .sff_api_note {
+    font-size: 11px;
+    color: #3B5998;
+    display: block;
+}
+
+.sff_plugin_body input[type=submit] {
+    background: none repeat scroll 0 0 #3B5998;
+    border: 0;
+    box-shadow: 0 1px 0 rgba(224, 164, 110, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 1px 0 rgba(224, 164, 110, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    -web-box-shadow: 0 1px 0 rgba(224, 164, 110, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 1px 0 rgba(224, 164, 110, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    -msie-box-shadow: 0 1px 0 rgba(224, 164, 110, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -web-border-radius: 5px;
+    -o-border-radius: 5px;
+    -msie-border-radius: 5px;
+    font-family: Arial;
+    font-size: 13px;
+    cursor: pointer;
+}
+.sff_plugin_body input[type=submit]:hover {
+    background: none repeat scroll 0 0 #0e385f;
+    border: 0;
+    box-shadow: 0 1px 0 rgba(224, 164, 110, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 1px 0 rgba(224, 164, 110, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    -web-box-shadow: 0 1px 0 rgba(224, 164, 110, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 1px 0 rgba(224, 164, 110, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    -msie-box-shadow: 0 1px 0 rgba(224, 164, 110, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -web-border-radius: 5px;
+    -o-border-radius: 5px;
+    -msie-border-radius: 5px;
+    font-family: Arial;
+    font-size: 13px;
+    cursor: pointer;
+}
+.sff_how_use {
+    border: 1px solid #DDD;
+    float: left;
+    width: 70%;
+    padding: 14px;
+    border-radius: 6px;
+    margin-top: 22px;
+}
+.sff_how_use h3 {
+    margin-top: 0;
+}
+.sff_how_use h3 i {
+    color: #3B5998;
+}
+.sff_how_use ul {
+    list-style: disc;
+    list-style-position: inside;
+    margin-left: 4px;
+}
+.sff_notifications {
+    float: right;
+    width: 24%;
+    background-color: #FFF;
+    padding: 14px;
+    border-radius: 6px;
+    border: 1px solid #DDD;
+}
+.sff_notifications h2 i {
+    color: #3B5998;
+}
+.sff_notifications ul li {
+    margin-bottom: 2px;
+}
+.sff_notifications .sff_ino_Q {
+    font-size: 14px;
+    font-weight: bold;
+    color: #3B5998;
+}
+.sff_notifications .sff_ino_A {
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+    margin-bottom: 16px;
+}
+.sff_notifications .sff_ino_A a {
+    font-size: 12px;
+    font-weight: normal;
+    color: #000;
+    margin-bottom: 14px;
+    text-decoration: none;
+}
+.sff_notifications .sff_ino_A a:hover {
+    font-size: 12px;
+    font-weight: normal;
+    color: #3B5998;
+    margin-bottom: 14px;
+    text-decoration: underline;
+}
+
+.sff_label {
+    font-size: 16px;
+}
+#sff_success_msg {
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 0;
+    font-size: 20px;
+}
